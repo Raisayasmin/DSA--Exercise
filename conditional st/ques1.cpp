@@ -1,12 +1,37 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-int main() 
-{
-    string name;
-    cout << "Enter name:";
-    getline (cin, name);
-    cout << "Hello " << name;
-    return 0;
+int main(){
+  int num ;
+  cout << "Enter a number : ";
+  cin >> num;
+
+  if(num > 0){
+    cout << "It's a positive number";
+  } else if(num < 0){
+    cout << "It's a negative number";
+  } else {
+    cout << "It's zero";
+  }
+return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
